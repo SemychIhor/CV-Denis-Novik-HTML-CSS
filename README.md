@@ -1,1 +1,1 @@
-# Mod2_task_solution
+# CV-Denis-Novik-HTML-CSS
