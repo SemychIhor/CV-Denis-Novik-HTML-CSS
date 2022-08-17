@@ -12,26 +12,35 @@
 <body>
 
     <div class="container">
-        <div class="container-header">
-            <ul>
-                <li><a href="#" class="active"><strong>Home</strong></a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-        </div>
-        <hr>
 
+        <header class="header">
+            <div class="container">
+                <div class="header_body">
+                    <nav class="header_menu">
+                        <ul class="header_list">
+                            <li><a href="#" class="header_link"><strong>Home</strong></a></li>
+                            <li><a href="#" class="header_link">About me</a></li>
+                            <li><a href="#" class="header_link">Skills</a></li>
+                            <li><a href="#" class="header_link">Portfolio</a></li>
+                            <li><a href="#" class="header_link">Contacts</a></li>
+                        </ul>
+                        <p class="p3"><a href="#" class="a1"> RU</a> |<a href="#"> ENG</a></p> 
+                    </nav>
+                    <div class="header_burger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
         <div class="info-header">
             <h1>Denis Novik</h1>
             <p class="p1">UX | UI designer 24 years old, Minsk</p>
             <p class="p2"><a href="#" class="a1"> RU</a> |<a href="#"> ENG</a></p>
-        </div>
-
-        <div class="container-img">
-            <img src="BSPP2266.png" alt="Photo">
-        </div>
+         </div>
+         <div class="container-img">
+            <img class = "screen" src="BSPP2266.png" alt="Photo">
+            <img class = "mobile" src="formob.jpg" alt="Photo">
+         </div>
     </div>
     <div class="about-me">
         <div class="about-description container">
@@ -47,10 +56,10 @@
             <h2>Skills</h2>
             <p>I work in such programms as</p>
             <div class="skills-ex">
-                <img src="PhotoS.jpg" alt="Adobe Photoshop">
-                <img src="AdWithStar.jpg" alt="Adobe Illustration">
-                <img src="AfterEf.jpg" alt="Adobe After Effects">
-                <img src="Figma.jpg" alt="Figma">
+                <div class="photoS"><div class="av"><img src="PfoS.jpg" alt="Adobe Photoshop"></div><p>Adobe Photoshop</p><div class="st1"><img src="6.jpg" alt="star1"><img src="6.jpg" alt="star2"><img src="6.jpg" alt="star3"><img src="6.jpg" alt="star4"><img src="1.jpg" alt="star5"></div></div>
+                <div class="adil"><div class="av1"><img src="AdIl.jpg" alt="Adobe Illustration"></div><p>Adobe Illustration</p><div class="st2"><img src="6.jpg" alt="star1"><img src="6.jpg" alt="star2"><img src="6.jpg" alt="star3"><img src="1.jpg" alt="star4"><img src="1.jpg" alt="star5"></div></div>
+                <div class="afef"><div class="av2"><img src="AfEf.jpg" alt="Adobe After Effects"></div><p>Adobe After Effects</p><div class="st3"><img src="6.jpg" alt="star1"><img src="6.jpg" alt="star2"><img src="6.jpg" alt="star3"><img src="6.jpg" alt="star4"><img src="1.jpg" alt="star5"></div></div>
+                <div class="figm"><div class="av3"><img src="Figm.jpg" alt="Figma"></div><p>Figma</p><div class="st4"><img src="6.jpg" alt="star1"><img src="6.jpg" alt="star2"><img src="6.jpg" alt="star3"><img src="6.jpg" alt="star4"><img src="1.jpg" alt="star5"></div></div>
             </div>
         </div>
     </div>
@@ -72,7 +81,7 @@
             <h2>Contacts</h2>
             <p class="p4">Want to know more or just chat? You are welcome!</p>
                 <div class="btn">
-                    <a href="#" target="_blank"> Send message</a>
+                    <input class="btn" type="submit" value="Send message" />
                 </div>
                <div class="sources">
                   <a href="#"><img src="ln.jpg" alt="Linkedin"></a>
@@ -83,6 +92,8 @@
             <p class="p5">Like me on<p class="p6">LinkedIn, Instagram, Behance, Dribble</p></p>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
